@@ -1,0 +1,22 @@
+.todo-list-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.todo-list-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 65%;
+    max-width: 500px;
+}
+
+.todo-list-container p {
+    font-weight: 500;
+    margin: 1rem 0;
+    text-wrap: wrap;
+    text-align: center;
+}
